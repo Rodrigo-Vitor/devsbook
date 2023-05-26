@@ -24,7 +24,7 @@
 
             <input class="button" type="submit" value="Acessar o sistema" />
 
-            <a href="">Ainda não tem conta? Cadastre-se</a>
+            <a href="<?=$base?>/cadastro">Ainda não tem conta? Cadastre-se</a>
         </form>
     </section>
 </body>
