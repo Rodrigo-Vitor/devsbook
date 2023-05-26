@@ -9,3 +9,7 @@ $router->get('/cadastro', 'LoginController@signup');
 
 $router->post('/cadastro', 'LoginController@signupAction');
 $router->post('/login', 'LoginController@signinAction');
+
+
+//rota sair
+$router->get('/sair', 'LoginController@logout');

@@ -91,4 +91,9 @@ class LoginController extends Controller {
         }
     }
 
+
+    //logout
+    public function logout() {
+        $_SESSION['token'] = '';
+    }
 }
