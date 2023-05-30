@@ -2,3 +2,5 @@ composer.phar
 /vendor/
 .DS_Store
 _MODELO
+TestController.php
+UserRelation.php

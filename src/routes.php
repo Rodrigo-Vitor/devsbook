@@ -13,3 +13,4 @@ $router->post('/login', 'LoginController@signinAction');
 
 //rota sair
 $router->get('/sair', 'LoginController@logout');
+$router->get('/teste', 'TestController@test');

@@ -15,8 +15,10 @@ class HomeController extends Controller {
     }
 
     public function index() {
+        $feed = '';
         $this->render('home', [
-            'loggedUser' => $this->loggedUser
+            'loggedUser' => $this->loggedUser,
+            'feed' => $feed
         ]);
     }
 
