@@ -6,10 +6,11 @@
         <div class="column pr-5">
 
             <?= $render('feed-editor', ['loggedUser' => $loggedUser]) ?>
+            <?php foreach($feed as $feedItem): ?>
+                <?= $render('feed-item', ['data' => $feedItem]) ?>
+            <?php endforeach ?>
 
 
-            <?= $render('feed-item', ['loggedUser' => $loggedUser]) ?>
-            <?= $render('feed-item', ['loggedUser' => $loggedUser]) ?>
 
 
 
