@@ -8,4 +8,8 @@ class User extends Model {
  public $name;
  public $email;
  public $avatar;
+ public $birthdate;
+ public $city;
+ public $work;
+ public $cover;
 }
